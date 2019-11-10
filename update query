@@ -1,0 +1,2 @@
+we can update any fields or columns and table using comma
+UPDATE EMPLOYEE SET EMPLOYEE.NAME='AMBANI'WHERE REG_NO=4;
