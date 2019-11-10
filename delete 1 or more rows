@@ -1,0 +1,2 @@
+here,we can delete many rows like
+SELECT FROM EMPLOYEE WHERE REG_NO=4;
