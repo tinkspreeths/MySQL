@@ -1,0 +1,15 @@
+creating a table 
+CREATE TABLE EMPLOYEE
+(NAME VARCHAR(40) NOT NULL,
+REG NO INT NOT NULL AUTO_INCREMENT,
+CITY VARCHAR(20) NOT NULL,
+SALARY INT NOT NULL
+PRIMARY KEY(REG NO));
+
+to see the created tables in a current database
+SHOW TABLES;
+
+
+
+to see the full description of the table
+DESC EMPLOYEE;
