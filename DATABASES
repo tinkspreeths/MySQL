@@ -1,0 +1,11 @@
+create database
+CREATE DATABASE EMPLOYEE;
+seeing all databases
+SHOW DATABASES;
+delete database
+DROP DATABASE EMPLOYEE;
+using particular database
+USE EMPLOYEE;
+
+
+
