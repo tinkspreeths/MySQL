@@ -1,0 +1,2 @@
+how to insert values in a database
+INSERT INTO EMPLOYEE(NAME,REG_NO,CITY,SALARY)VALUES('PREETHI',12,'VELLORE',77000);
