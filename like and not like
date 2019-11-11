@@ -1,0 +1,6 @@
+% means 0 or more characters 
+_ meqans exactly 1 character
+pattern matching if we want to display the patterns like the city names starting with letter r trhen use like 
+we can use not in front of any conditions which is going to display opposite to it .
+SELECT * FROM EMPLOYEE WHERE 'LIKE V%';
+SELECT * FROM EMPLOYEE WHERE 'NOT LIKE B_______%';
