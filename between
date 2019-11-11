@@ -1,0 +1,4 @@
+for the range of numbers,we can use either,or,or conditions but that will be lengthy in order to solve this issue we introduce between 
+condition
+
+SELECT * FROM EMPLOYEE WHERE SALARY BETWEEN 1 AND 3;
