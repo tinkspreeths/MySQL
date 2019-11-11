@@ -1,0 +1,6 @@
+group by
+select city,count(*) from employee groupby city;
+select city,sum(salary) from employee groupby city;
+select name,city,max(salary) from employee groupby name,city;
+
+if salary not mentioned in groupby then in select with some aggregate function should be used.
