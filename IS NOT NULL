@@ -1,0 +1,11 @@
+WE ARE specifying one null and already presented null in the table both will be compared and the output will be distinct and it will
+not give the required result.
+
+SELECT *FROM EMPLOYEE WHERE SALARY IS NULL;
+SELECT *FROM EMPLOYEE WHERE SALARY IS NOT NULL;
+
+
+
+
+
+
