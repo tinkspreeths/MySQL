@@ -1,0 +1,11 @@
+which and having clause are same doing functionalities whichnwill minimize the rows and shows the datas but in having it is used inside
+group by clause inside filtration by group by then it will again filterize the datas .its the basic definition 
+
+
+logically lets see an example 
+
+if i wanted to retrive the names and their salaries only from specific city and then in that city who are earning more than 5000
+should be displayed
+SELECT NAME,SALARY,CITY FROM EMPLOYEE GROUP BY CITY HAVING SALARY>5000;
+SELECT NAME ,SUM(HOUR) FROM EMPLOYEE GROUP BY CITY HAVING SUM(HOUR)>5;
+
