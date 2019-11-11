@@ -1,0 +1,11 @@
+its like normal and and or condition logically,
+it is used to use multiple where clauses at a time if needed 
+
+eg:-
+SELECT NAME FROM EMPLOYEE WHERE NAME='PREETHI' AND REG_NO=121;
+here both the condition should be satisfied then only it will be printed .
+SELECT NAME FROM EMPLOYEE WHERE NAME='PREETHI' OR REG_NO=121;
+here if any one condition satisfied also its gona be printing the result.
+SELECT NAME FROM EMPLOYEE WHERE (NAME='PREETHI'AND REG_NO=121) OR (HOUR>5);
+
+be careful while choosing paranthesis to put .
