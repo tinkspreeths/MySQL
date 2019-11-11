@@ -1,0 +1,9 @@
+here,min is used to find the numbers which is having least
+max is used to find in numbers which is having highest
+average is used to average all the numbers and divide by its total that also can be done by mysql.
+eg:-
+SELECT NAME,CITY,MAX(SALARY) FROM EMPLOYEE WHERE ....
+2.SELECT NAME,CITY,MIN(REG_NO) FROM EMPLOYEE 
+3.SELECT  AVG(SALARY) FROM EMPLOYEE WHERE EMPLOYEE.NAME='PREETHI';
+
+
