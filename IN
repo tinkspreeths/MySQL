@@ -1,2 +1,2 @@
 instead or finding either or ,or in using OR operator we can use in
-SELECT NAME ,CITY FROM EMPLOYEE IN ('TINKU','PREETHI','DADDY');
+SELECT NAME ,CITY FROM EMPLOYEE WHERE  IN ('TINKU','PREETHI','DADDY');
