@@ -6,6 +6,6 @@ logically lets see an example
 
 if i wanted to retrive the names and their salaries only from specific city and then in that city who are earning more than 5000
 should be displayed
-SELECT NAME,SALARY,CITY FROM EMPLOYEE GROUP BY CITY HAVING SALARY>5000;
+SELECT NAME,SALARY,CITY FROM EMPLOYEE GROUP BY CITY,NAME, SALARY HAVING SALARY>5000;
 SELECT NAME ,SUM(HOUR) FROM EMPLOYEE GROUP BY CITY HAVING SUM(HOUR)>5;
 
