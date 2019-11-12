@@ -1,0 +1,10 @@
+so,here if we use truncate means the datas only will be deleted not the table name or fields only the rows that will be deleted
+if we use drop means the entire structure will be deleted 
+
+TRUNCATE EMPLOYEE;
+DROP TABLE EMPLOYEE;
+
+
+
+
+
