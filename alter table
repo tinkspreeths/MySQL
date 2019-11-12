@@ -1,0 +1,7 @@
+we have created table and its values successfully ,now if we want to change table name or field name or add or delete we use alter command
+to modify,add or drop the table and its field name.
+ALTER TABLE EMPLOYEE ADD EMPAGE VARCHAR(100) NOT NULL AFTER NAME;
+ADD TABLE TINKU;
+MODIFY TABLE EMPLOYEE;
+DROP TABLE EMPLOYEE;
+ALTER TABLE EMPLOYEE MODIFY NAME AS EMPNAME VARCHAR(100) NOT NULL FIRST;
